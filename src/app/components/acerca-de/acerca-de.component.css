@@ -1,0 +1,41 @@
+.row{
+  padding: 20px;
+  background-color: #FDE3A2;
+  margin: 15px;
+  border-radius: 20px;
+}
+div{
+  text-align: left;
+}
+
+.btn {
+  margin: 5px;
+}
+#name{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30%;
+}
+#title{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.currentPersona{
+  display:flex;
+}
+@media (min-width: 576px){
+  #profilePic{
+      width: 100%;
+      border-radius: 100%;
+      margin-top: 20px
+  }
+}
+@media (max-width: 575px){
+  #profilePic{
+      width: 100%;
+      border-radius: 100%;
+      margin-top: 20px
+  }
+}
+

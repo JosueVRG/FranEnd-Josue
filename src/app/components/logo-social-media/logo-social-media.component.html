@@ -1,0 +1,7 @@
+<div>
+  <a href="https://www.facebook.com/josue.verga/"><img src="assets/HeaderIcons/FacebookLogo.png" alt="Logo Facebook"></a>
+  <a href="https://github.com/JosueVRG/" ><img src="assets/HeaderIcons/GithubLogo.png" alt="Logo Github"></a>
+  <a href="https://www.instagram.com/josuvrg/" ><img src="assets/HeaderIcons/InstagramLogo.png" alt="Logo Instagram"></a>
+  <button type="button" class="btn btn-outline-light m-4" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+  <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">SALIR</button>
+</div>

@@ -1,0 +1,16 @@
+.row{
+  padding: 20px;
+}
+.btn {
+  margin: 5px;
+}
+.container{
+  background-color: #FDE3A2;
+}
+.barColor{
+  color: white;
+}
+.progress {
+  --bs-progress-bg: white;
+}
+.progress-bar{background-color:#6a6ad1;}

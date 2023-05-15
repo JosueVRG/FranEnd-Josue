@@ -1,0 +1,5 @@
+.gradient-custom {
+  background:
+    linear-gradient(to bottom, #FDCA49 0%, #FDE095 100%);
+    background-blend-mode: screen;
+  }

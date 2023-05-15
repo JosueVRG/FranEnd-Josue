@@ -1,0 +1,32 @@
+<div class="row">
+  <div>
+    <h1>Hard Skills & Soft Skills
+      <button type="button" class="btn btn-primary" routerLink="/nuevahyss" *ngIf="isLogged">
+          <i class="bi bi-plus-circle-fill"></i>
+      </button>
+    </h1>
+  </div>
+  <div class="container">
+  <div class="row" *ngFor="let Hardsofts of hardsoft">
+    <div>
+      <div class="align-items-center b1" style="float:left">
+          <i class="{{Hardsofts.iconoH}} m-2"></i>
+      </div>
+      <div class="col-9 progress">
+          <div class="progress-bar progress-bar progress-bar-animated barColor"
+              attr.style="width:{{Hardsofts.descripcionE}}%" role="progressbar" aria-label="Basic example"
+              attr.aria-valuenow="{{Hardsofts.descripcionE}}" aria-valuemin="0" aria-valuemax="100">
+              {{Hardsofts.nombreH}}</div>
+      </div>
+    </div>
+      <div class="col align-self-center">
+        <button *ngIf="isLogged" class="btn btn-danger" style="float:right" (click)="delete(Hardsofts.id)">
+          <i class="bi bi-trash-fill"></i></button>
+          <button *ngIf="isLogged" class="btn btn-primary" style="float:right" routerLink="/edithyss/{{Hardsofts.id}}">
+              <i class="bi bi-pencil-fill"></i></button>
+
+      </div>
+  </div>
+</div>
+</div>
+

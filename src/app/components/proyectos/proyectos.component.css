@@ -1,0 +1,26 @@
+.row{
+  padding: 20px;
+  text-align: left;
+}
+.project1{
+  display: inline-block;
+}
+.btn {
+  margin: 5px;
+}
+.imgProject1{
+  width: 70%;
+  margin: 20px;
+  margin-top: 0px;
+  border-radius:50%;
+}
+.accordion, .accordion-item, accordion-header, .accordion-button{
+  background-color:#FDE3A2 ;
+}
+
+.accordion-button{
+  color: #4949b4 ;
+}
+#proyectosaccordion {
+  padding: 0px;
+}
